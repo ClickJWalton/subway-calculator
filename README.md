@@ -61,6 +61,7 @@ src/
 - `Header` - Application header with title and description
 - `SandwichBuilder` - Complete sandwich building interface
 - `NutritionPanel` - Nutrition and order summary panel
+- `Footer` - Legal and fair-use disclaimer panel
 
 ## Installation
 
@@ -127,11 +128,11 @@ This project follows strict code quality guidelines:
 ## Contributing
 
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
+2. Create a feature branch: `git checkout -b SUBWAY-CALC-{number}`
 3. Make your changes following the established code standards
 4. Write or update tests as needed
-5. Commit your changes: `git commit -m "Description of changes"`
-6. Push to the branch: `git push origin feature-name`
+5. Commit your changes: `git commit -m "SUBWAY-CALC-{number}: feature-name"`
+6. Push to the branch: `git push origin SUBWAY-CALC-{number}`
 7. Submit a pull request
 
 ### Development Guidelines
