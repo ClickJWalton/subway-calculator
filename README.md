@@ -5,7 +5,7 @@ A comprehensive web application for calculating nutritional information when bui
 ## Features
 
 - **Real-time Nutrition Calculation**: Get instant calorie and nutritional information as you build your sandwich
-- **Complete Ingredient Database**: All breads, proteins, cheeses, vegetables, sauces, and toppings from official Subway UK nutrition data (January 2025)
+- **Complete Ingredient Database**: All breads, proteins, cheeses, vegetables, sauces, and toppings from official Subway UK nutrition data (June 2025)
 - **Size Options**: Support for both 6-inch and Footlong sandwiches with automatic scaling
 - **Double Protein**: Option to double protein portions with accurate nutritional calculations
 - **HALAL Options**: Comprehensive selection of HALAL-certified ingredients
@@ -95,7 +95,7 @@ npm run dev
 
 ## Data Source
 
-Nutritional information is sourced from the official Subway UK nutrition data (January 2025). The data includes:
+Nutritional information is sourced from the official Subway UK nutrition data (June 2025). The data includes:
 
 - Serving sizes and nutritional values per 100g
 - Calories, protein, carbohydrates, fat, fiber, and sugar content
@@ -164,4 +164,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Disclaimer
 
-This calculator is for informational purposes only. Nutritional values are based on official Subway UK data from January 2025. Actual nutritional content may vary based on preparation methods, ingredient suppliers, and regional differences. Always consult official Subway nutrition information for the most accurate data.
+This calculator is for informational purposes only. Nutritional values are based on official Subway UK data from June 2025. Actual nutritional content may vary based on preparation methods, ingredient suppliers, and regional differences. Always consult official Subway nutrition information for the most accurate data.

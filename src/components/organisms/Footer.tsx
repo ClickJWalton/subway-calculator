@@ -21,7 +21,7 @@ const Footer: React.FC = () => (
           </p>
           <p className="mb-2">
             Nutritional information is based on publicly available Subway UK
-            nutrition data (January 2025) and is provided for informational
+            nutrition data (June 2025) and is provided for informational
             purposes only. Actual nutritional content may vary based on
             preparation methods, ingredient suppliers, portion sizes, and
             regional differences.
