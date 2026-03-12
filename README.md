@@ -1,5 +1,7 @@
 # Subway Calorie Calculator
 
+**Live site:** [subway-calculator-phi.vercel.app](https://subway-calculator-phi.vercel.app/)
+
 A comprehensive web application for calculating nutritional information when building your Subway sandwich order. Built with Next.js, TypeScript, and Tailwind CSS using atomic design principles.
 
 ## Features
@@ -15,7 +17,7 @@ A comprehensive web application for calculating nutritional information when bui
 
 ## Tech Stack
 
-- **Framework**: Next.js 15.3.3
+- **Framework**: Next.js 16
 - **Language**: TypeScript 5
 - **Styling**: Tailwind CSS 4
 - **UI Architecture**: Atomic Design Pattern
@@ -84,7 +86,7 @@ npm install
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+4. Open [http://localhost:8111](http://localhost:8111) in your browser.
 
 ## Available Scripts
 
