@@ -12,9 +12,9 @@ const BreadSelector: React.FC<BreadSelectorProps> = ({
   selectedBread,
   onBreadChange,
 }) => (
-  <div className="bg-white rounded-lg shadow-md p-6">
+  <div className="bg-[#1a1a1a] rounded-xl border border-[#2a2a2a] p-6">
     <SectionTitle>Bread</SectionTitle>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
       {Object.keys(NUTRITIONAL_DATA.breads).map((bread) => (
         <RadioButton
           key={bread}
@@ -24,7 +24,6 @@ const BreadSelector: React.FC<BreadSelectorProps> = ({
           checked={selectedBread === bread}
           onChange={onBreadChange}
           label={bread}
-          className="p-2 rounded hover:bg-gray-50"
         />
       ))}
     </div>

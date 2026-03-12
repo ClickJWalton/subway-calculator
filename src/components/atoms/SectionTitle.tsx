@@ -9,7 +9,10 @@ const SectionTitle: React.FC<SectionTitleProps> = ({
   children,
   className = "",
 }) => (
-  <h2 className={`text-xl font-bold text-gray-800 mb-4 ${className}`}>
+  <h2
+    className={`text-xs font-bold text-[#FFC72C] uppercase tracking-widest mb-4 flex items-center gap-2 ${className}`}
+  >
+    <span className="w-1 h-3.5 bg-[#008C15] rounded-full inline-block flex-shrink-0" />
     {children}
   </h2>
 );

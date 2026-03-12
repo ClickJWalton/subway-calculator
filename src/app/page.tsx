@@ -162,8 +162,8 @@ const SubwayCalculator: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 to-yellow-50">
-      <div className="p-4">
+    <div className="min-h-screen bg-[#0f0f0f]">
+      <div className="p-4 pt-10">
         <div className="max-w-6xl mx-auto">
           <Header />
 

@@ -8,15 +8,15 @@ interface NutritionSummaryProps {
 }
 
 const NutritionSummary: React.FC<NutritionSummaryProps> = ({ totals }) => (
-  <div className="bg-white rounded-lg shadow-md p-6 sticky top-4">
+  <div className="bg-[#1a1a1a] rounded-xl border border-[#2a2a2a] p-6 sticky top-4">
     <SectionTitle>Nutrition Summary</SectionTitle>
-    <div className="space-y-3">
-      <NutritionValueDisplay
-        label="Calories"
-        value={totals.calories}
-        unit=""
-        highlighted={true}
-      />
+    <NutritionValueDisplay
+      label="Calories"
+      value={totals.calories}
+      unit=""
+      highlighted={true}
+    />
+    <div className="space-y-0 mt-2">
       <NutritionValueDisplay label="Protein" value={totals.protein} />
       <NutritionValueDisplay label="Carbohydrates" value={totals.carbs} />
       <NutritionValueDisplay label="Fat" value={totals.fat} />

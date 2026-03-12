@@ -15,17 +15,19 @@ const NutritionValueDisplay: React.FC<NutritionValueDisplayProps> = ({
 }) => {
   if (highlighted) {
     return (
-      <div className="flex justify-between items-center p-3 bg-green-50 rounded-lg">
-        <span className="font-semibold text-green-800">{label}</span>
-        <span className="text-xl font-bold text-green-800">{value}</span>
+      <div className="flex justify-between items-center p-4 bg-[#FFC72C] rounded-xl mb-2">
+        <span className="font-black text-[#111111] text-base uppercase tracking-wide">
+          {label}
+        </span>
+        <span className="text-3xl font-black text-[#111111]">{value}</span>
       </div>
     );
   }
 
   return (
-    <div className="flex justify-between items-center p-2 border-b">
-      <span className="text-gray-600">{label}</span>
-      <span className="font-semibold text-gray-600">
+    <div className="flex justify-between items-center py-2.5 border-b border-[#2a2a2a]">
+      <span className="text-gray-400 text-sm">{label}</span>
+      <span className="font-semibold text-white text-sm">
         {value}
         {unit}
       </span>

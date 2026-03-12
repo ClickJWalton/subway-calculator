@@ -16,18 +16,17 @@ const ProteinSelector: React.FC<ProteinSelectorProps> = ({
   onProteinChange,
   onDoubleProteinChange,
 }) => (
-  <div className="bg-white rounded-lg shadow-md p-6">
+  <div className="bg-[#1a1a1a] rounded-xl border border-[#2a2a2a] p-6">
     <SectionTitle>Proteins</SectionTitle>
-    <div className="mb-4">
+    <div className="mb-3 p-1 rounded-lg border border-[#FFC72C]/20 bg-[#FFC72C]/5">
       <CheckBox
         id="double-protein"
         checked={doubleProtein}
         onChange={onDoubleProteinChange}
         label="Double Protein"
-        className="font-medium"
       />
     </div>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 max-h-48 overflow-y-auto">
+    <div className="subway-scroll grid grid-cols-1 md:grid-cols-2 gap-1 max-h-52 overflow-y-auto pr-1">
       {Object.keys(NUTRITIONAL_DATA.proteins).map((protein) => (
         <CheckBox
           key={protein}
@@ -35,7 +34,6 @@ const ProteinSelector: React.FC<ProteinSelectorProps> = ({
           checked={selectedProteins.includes(protein)}
           onChange={() => onProteinChange(protein)}
           label={protein}
-          className="p-2 rounded hover:bg-gray-50"
         />
       ))}
     </div>
