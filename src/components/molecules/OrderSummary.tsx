@@ -25,7 +25,7 @@ const OrderSummary: React.FC<OrderSummaryProps> = ({
 }) => (
   <div className="bg-white rounded-lg shadow-md p-6">
     <SectionTitle>Your Order</SectionTitle>
-    <div className="space-y-2 text-sm">
+    <div className="space-y-2 text-sm text-gray-800">
       <div>
         <strong>Size:</strong>{" "}
         {sandwichSize === "6inch" ? "6 inch" : "Footlong"}
