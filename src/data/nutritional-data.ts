@@ -60,22 +60,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
     },
   },
   proteins: {
-    "Pork & Beef Meatballs (BBQ)": {
-      calories: 253,
-      protein: 12,
-      carbs: 27,
-      fat: 10,
-      fiber: 3.3,
-      sugar: 21,
-    },
-    "Big Beef Patty": {
-      calories: 80,
-      protein: 6,
-      carbs: 0.9,
-      fat: 5.5,
-      fiber: 0.8,
-      sugar: 0.4,
-    },
     "Lincolnshire Sausage Patty": {
       calories: 121,
       protein: 7,
@@ -124,7 +108,7 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fiber: 0,
       sugar: 0,
     },
-    "Plant Patty": {
+    "Spiced Plant Patty": {
       calories: 169,
       protein: 11,
       carbs: 10,
@@ -164,6 +148,14 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fiber: 0,
       sugar: 0.1,
     },
+    "Shawarma Spiced Chicken": {
+      calories: 119,
+      protein: 11.7,
+      carbs: 4,
+      fat: 7.1,
+      fiber: 0.9,
+      sugar: 1,
+    },
     "Salami (3 slices)": {
       calories: 73,
       protein: 4,
@@ -179,14 +171,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fat: 1.4,
       fiber: 0.7,
       sugar: 3.9,
-    },
-    "Taco Beef": {
-      calories: 111,
-      protein: 6,
-      carbs: 7,
-      fat: 6.7,
-      fiber: 1,
-      sugar: 0,
     },
     "Tuna (with Lite Mayo)": {
       calories: 145,
@@ -212,14 +196,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fiber: 2.7,
       sugar: 6.7,
     },
-    "HALAL Meatballs (BBQ)": {
-      calories: 282,
-      protein: 12,
-      carbs: 31,
-      fat: 13,
-      fiber: 2.7,
-      sugar: 20,
-    },
     "HALAL Beef Meatballs": {
       calories: 183,
       protein: 12,
@@ -227,14 +203,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fat: 13,
       fiber: 1.4,
       sugar: 0,
-    },
-    "HALAL Beef Patty": {
-      calories: 140,
-      protein: 10,
-      carbs: 2,
-      fat: 10,
-      fiber: 1.4,
-      sugar: 0.8,
     },
     "HALAL Roast Chicken Breast Strips": {
       calories: 85,
@@ -251,6 +219,14 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fat: 2.5,
       fiber: 0,
       sugar: 14,
+    },
+    "HALAL Shawarma Spiced Chicken": {
+      calories: 119,
+      protein: 11.7,
+      carbs: 4,
+      fat: 7.1,
+      fiber: 0.9,
+      sugar: 1,
     },
     "HALAL Chicken Tikka": {
       calories: 89,
@@ -284,14 +260,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fiber: 0.7,
       sugar: 3.9,
     },
-    "HALAL Taco Beef": {
-      calories: 114,
-      protein: 5,
-      carbs: 5,
-      fat: 7.8,
-      fiber: 0.9,
-      sugar: 0,
-    },
     "HALAL Turkey Breast (3 slices)": {
       calories: 62,
       protein: 10,
@@ -324,6 +292,14 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fiber: 0.5,
       sugar: 0.6,
     },
+    "Falafel Bites": {
+      calories: 226,
+      protein: 6.5,
+      carbs: 26,
+      fat: 13,
+      fiber: 12,
+      sugar: 1.4,
+    },
   },
   cheeses: {
     "American-style Cheese": {
@@ -333,14 +309,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fat: 3.5,
       fiber: 0,
       sugar: 0.4,
-    },
-    Mozzarella: {
-      calories: 75,
-      protein: 6,
-      carbs: 0.3,
-      fat: 5.7,
-      fiber: 0,
-      sugar: 0.3,
     },
     "Peppered Cheese": {
       calories: 45,
@@ -375,14 +343,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fat: 0,
       fiber: 0.1,
       sugar: 0.3,
-    },
-    Guacamole: {
-      calories: 24,
-      protein: 0.7,
-      carbs: 0.9,
-      fat: 6,
-      fiber: 0.6,
-      sugar: 0.4,
     },
     Jalapenos: {
       calories: 1,
@@ -429,7 +389,7 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       calories: 6,
       protein: 0.2,
       carbs: 0.8,
-      fat: 0.1,
+      fat: 0,
       fiber: 0.3,
       sugar: 0.4,
     },
@@ -437,17 +397,9 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       calories: 5,
       protein: 0.3,
       carbs: 0.8,
-      fat: 0.1,
+      fat: 0,
       fiber: 0.4,
       sugar: 0.8,
-    },
-    "Caramelised Red Onion": {
-      calories: 9,
-      protein: 0,
-      carbs: 2,
-      fat: 0,
-      fiber: 0,
-      sugar: 1.5,
     },
   },
   sauces: {
@@ -473,7 +425,7 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       carbs: 0.9,
       fat: 8.4,
       fiber: 0,
-      sugar: 1,
+      sugar: 0.4,
     },
     "Hickory Smoked BBQ": {
       calories: 24,
@@ -499,6 +451,14 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fiber: 0,
       sugar: 0.6,
     },
+    "Sweet Chilli Sauce": {
+      calories: 30,
+      protein: 0,
+      carbs: 7.5,
+      fat: 0,
+      fiber: 0,
+      sugar: 6.5,
+    },
     "Sweet Onion": {
       calories: 23,
       protein: 0.1,
@@ -523,6 +483,14 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fiber: 0,
       sugar: 3.2,
     },
+    "Yoghurt, Mint and Garlic Sauce": {
+      calories: 32,
+      protein: 0.2,
+      carbs: 1.8,
+      fat: 3,
+      fiber: 0,
+      sugar: 0.9,
+    },
   },
   toppings: {
     "Chili Flakes": {
@@ -540,14 +508,6 @@ export const NUTRITIONAL_DATA: NutritionalDatabase = {
       fat: 3,
       fiber: 0.3,
       sugar: 0.6,
-    },
-    "Multi-Seed Mix": {
-      calories: 58,
-      protein: 2.6,
-      carbs: 0.7,
-      fat: 4.7,
-      fiber: 1,
-      sugar: 0.2,
     },
   },
 };
